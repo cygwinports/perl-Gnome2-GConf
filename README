@@ -1,0 +1,106 @@
+perl-Gnome2-GConf
+------------------------------------------
+Perl bindings for GConf-2, the Gnome configuration database.
+
+Runtime requirements:
+  cygwin-1.5.21-2
+  GConf2-2.16.0-1
+  perl-5.8.7-5
+  perl-Glib-1.140-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.21-2
+  binutils-20060817-1
+  gcc-core-3.4.4-1
+  make-3.81-1
+  perl-5.8.7-5
+  perl-ExtUtils-Depends-0.205-1
+  perl-ExtUtils-PkgConfig-1.07-1
+
+Canonical homepage:
+  http://gtk2-perl.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/gtk2-perl/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gnome2-GConf-1.043-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Gnome2-GConf-1.043-X.cygport all
+
+This will create:
+  /usr/src/perl-Gnome2-GConf-1.043-X-src.tar.bz2
+  /usr/src/perl-Gnome2-GConf-1.043-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Gnome2-GConf.sh
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/ChangeSet.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/Client.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/Engine.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/Entry.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/Install/gconf.typemap
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/Install/gconfperl-autogen.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/Install/gconfperl-version.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/Install/gconfperl.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/Install/gconfperl.typemap
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/Schema.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/Value.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/index.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/main.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/version.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/GConf/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/GConf/GConf.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/GConf/GConf.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/GConf/libGConf.dll.a
+  /usr/share/doc/Cygwin/perl-Gnome2-GConf-1.043.README
+  /usr/share/doc/perl-Gnome2-GConf-1.043/AUTHOR
+  /usr/share/doc/perl-Gnome2-GConf-1.043/ChangeLog
+  /usr/share/doc/perl-Gnome2-GConf-1.043/NEWS
+  /usr/share/doc/perl-Gnome2-GConf-1.043/README
+  /usr/share/man/man3/Gnome2.GConf.3pm.gz
+  /usr/share/man/man3/Gnome2.GConf.ChangeSet.3pm.gz
+  /usr/share/man/man3/Gnome2.GConf.Client.3pm.gz
+  /usr/share/man/man3/Gnome2.GConf.Engine.3pm.gz
+  /usr/share/man/man3/Gnome2.GConf.Entry.3pm.gz
+  /usr/share/man/man3/Gnome2.GConf.Schema.3pm.gz
+  /usr/share/man/man3/Gnome2.GConf.Value.3pm.gz
+  /usr/share/man/man3/Gnome2.GConf.index.3pm.gz
+  /usr/share/man/man3/Gnome2.GConf.main.3pm.gz
+  /usr/share/man/man3/Gnome2.GConf.version.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/Gnome2-GConf.pod
+
+--------------------
+
+Port Notes:
+
+----- version 1.043-1 -----
+Version bump.
+
+----- version 1.021-1 -----
+Version bump.
+
+----- version 1.020-1 -----
+Version bump.
+
+----- version 1.000-3 -----
+Rebuilt for perl-5.8.7 with --enable-auto-image-base.
+
+----- version 1.000-2 -----
+Rebuilt for perl-5.8.6.
+
+----- version 1.000-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
