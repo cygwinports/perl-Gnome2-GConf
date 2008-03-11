@@ -3,21 +3,19 @@ perl-Gnome2-GConf
 Perl bindings for GConf-2, the Gnome configuration database.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  GConf2-2.18.0.1-1
-  perl-5.8.8-4
-  perl-Glib-1.144-1
+  cygwin-1.5.25-7
+  GConf2-2.20.1-1
+  perl-5.10.0-3
+  perl-Glib-1.164-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.3.5-1
-  gcc-core-3.4.4-2
+  cygport-0.3.9-1
+  gcc-core-3.4.4-3
   make-3.81-1
-  perl-5.8.8-6
-  perl-ExtUtils-Depends-0.205-1
-  perl-ExtUtils-PkgConfig-1.07-1
+  perl-ExtUtils-Depends-0.205-2
+  perl-ExtUtils-PkgConfig-1.10-1
 
 Canonical homepage:
   http://gtk2-perl.sourceforge.net/
@@ -42,7 +40,6 @@ This will create:
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-Gnome2-GConf.sh
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/ChangeSet.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/Client.pod
@@ -60,10 +57,7 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/main.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/GConf/version.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/GConf/.packlist
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/GConf/GConf.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/GConf/GConf.dll
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/GConf/libGConf.dll.a
-  /usr/share/doc/Cygwin/perl-Gnome2-GConf-1.044.README
   /usr/share/doc/perl-Gnome2-GConf-1.044/AUTHOR
   /usr/share/doc/perl-Gnome2-GConf-1.044/ChangeLog
   /usr/share/doc/perl-Gnome2-GConf-1.044/NEWS
@@ -78,11 +72,13 @@ Files included in the binary package:
   /usr/share/man/man3/Gnome2.GConf.index.3pm.gz
   /usr/share/man/man3/Gnome2.GConf.main.3pm.gz
   /usr/share/man/man3/Gnome2.GConf.version.3pm.gz
-  /usr/share/perl/cygwin-pods/5.8/Gnome2-GConf.pod
 
 --------------------
 
 Port Notes:
+
+----- version 1.044-2 -----
+Rebuilt for perl-5.10.
 
 ----- version 1.044-1 -----
 Version bump.
