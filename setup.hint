@@ -1,4 +1,4 @@
 category: Perl Gnome
-requires: cygwin GConf2 perl perl-Glib
+requires: cygwin libgcc1 libgconf2_4 libglib2.0_0 perl perl-Glib
 sdesc: "Perl bindings for GConf-2"
 ldesc: "Perl bindings for GConf-2, the Gnome configuration database"
