@@ -1,0 +1,27 @@
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=649055
+
+--- origsrc/Gnome2-GConf-1.044/xs/GConfEngine.xs	2006-04-13 02:40:26.000000000 -0500
++++ src/Gnome2-GConf-1.044/xs/GConfEngine.xs	2012-07-11 01:13:40.723076700 -0500
+@@ -350,22 +350,6 @@ gconf_engine_remove_dir (engine, dir)
+ 	if (err)
+ 		gperl_croak_gerror (NULL, err);
+ 
+-##gboolean gconf_engine_key_is_writable  (GConfEngine *conf,
+-##                                        const gchar *key,
+-##                                        GError     **err);
+-gboolean
+-gconf_engine_key_is_writable (engine, key)
+-	GConfEngine * engine
+-	const gchar * key
+-    PREINIT:
+-    	GError *err = NULL;
+-    CODE:
+-    	RETVAL = gconf_engine_key_is_writable (engine, key, &err);
+-	if (err)
+-		gperl_croak_gerror (NULL, err);
+-    OUTPUT:
+-        RETVAL
+-
+ guint
+ gconf_engine_notify_add (engine, namespace_section, func, data=NULL)
+ 	GConfEngine * engine

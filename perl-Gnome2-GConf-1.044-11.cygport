@@ -1,0 +1,4 @@
+inherit gtk2-perl
+
+
+PATCH_URI="1.044-dbus.patch"
