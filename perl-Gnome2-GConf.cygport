@@ -2,7 +2,7 @@ inherit gtk2-perl
 
 NAME="perl-Gnome2-GConf"
 VERSION=1.044
-RELEASE=12
+RELEASE=13
 CATEGORY="Perl"
 SUMMARY="Perl bindings for GConf-2"
 DESCRIPTION="Perl bindings for GConf-2, the Gnome configuration database"
